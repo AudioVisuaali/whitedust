@@ -19,7 +19,7 @@ export default class WelcomeBox extends Component {
 
                 </div>
                 <div className="info">
-                    <h5>Here's an example how the build will look!</h5>
+                    <h5>Here&#39;s an example how the build will look!</h5>
                     <Link to="/inspect/example" className="waves-effect waves-light btn-large light-blue darken-1">
                         Example build
                     </Link>
