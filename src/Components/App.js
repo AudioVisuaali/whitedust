@@ -33,9 +33,9 @@ class App extends Component {
           <Route exact render={(props) => <MainPageChecks {...props} inner={MainPageLogin} />}         path="/login" />
           <Route exact render={(props) => <MainPageChecks {...props} inner={MainPageUpdates} />}       path="/updates" />
           <Route exact render={(props) => <MainPageChecks {...props} inner={MainPageContinue} />}      path="/continue" />
-          <Route render={(props) => <Panel {...props} />}                                              path="/panel" />
-          <Route render={(props) => <Inspect {...props} />}                                            path="/inspect/:id" />
-          <Route component={notFound} />
+          <Route       render={(props) => <Panel {...props} />}                                        path="/panel" />
+          <Route       render={(props) => <Inspect {...props} />}                                      path="/inspect/:id" />
+          <Route       component={notFound} />
         </Switch>
       </Router>
     );
