@@ -1,0 +1,88 @@
+.parts .casing {
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    min-height: 120px;
+}
+.parts .casing:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.parts .part a {
+    width: calc(100% - 40px);
+    float: left;
+}
+.parts {
+    padding-bottom: 30px;
+}
+.parts .part {
+    overflow: auto;
+    margin: 0px 0px 30px 0px;
+}
+.parts .part .item {
+}
+.parts .part .colored {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #039be5;
+}
+.parts .casing .picture,
+.parts .casing .information {
+    float: left;
+}
+.parts .colored .casing {
+    border-radius: 10px 10px 10px 10px;
+    margin: 0px;
+}
+.parts .casing .picture {
+    width: 80px;
+    height: 100%;
+    margin: 20px;
+}
+.parts .casing .picture img {
+    max-width: 80px;
+    max-height: 80px;
+}
+.parts .casing .information p,
+.parts .casing .information h4 {
+    color: #ffffff;
+}
+.parts .casing .information p {
+    margin: 2px 0px;
+}
+.parts .casing .information h4 {
+    margin: 20px 0px 5px 0px;
+    font-size: 28px;
+}
+.parts .button {
+    float: right;
+    width: 40px;
+    height: 80px;
+}
+.parts .button .modify,
+.parts .button .remove {
+    cursor: pointer;
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+.parts .button .modify {
+    margin: 10px 0px 0px 0px;
+    border-radius: 0 10px 0px 0px;
+    background-color: #5cb85c;
+}
+.parts .button .modify:hover {
+    background-color: #449d44;
+}
+.parts .button .remove {
+    border-radius: 0 0px 10px 0px;
+    background-color: #d9534f;
+}
+.parts .button .remove:hover {
+    background-color: #c9302c;
+}
+.parts .button p {
+    margin: 9px 1px 9px 0px;
+    text-align: center
+}

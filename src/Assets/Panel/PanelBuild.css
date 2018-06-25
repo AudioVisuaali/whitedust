@@ -1,0 +1,178 @@
+
+.build .casing {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #039be5;
+    width: 100%;
+    margin: 30px 0px 30px 0px;
+    min-height: 120px;
+}
+.build .item .casing:hover {
+    background-color: #007ebc;
+}
+.build .casing:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.build .part {
+    margin: 0px 0px 30px 0px;
+}
+.build {
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto;
+}
+.build .casing .picture,
+.build .casing .information {
+    float: left;
+    margin: 0px 10px 10px 0px;
+    width: calc(100% - 130px);
+}
+.build .casing .information h4 {
+    font-size: 26px;
+}
+.build .casing .information h4 i {
+    font-size: 28px;
+    margin: 4px 13px 0px 0px;
+    cursor: pointer;
+}
+.build .casing .information .input-field {
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+    width:70%;
+}
+.build .casing .information .input-field i {
+    float: right;
+    position: absolute;
+    font-size: 28px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.build .casing .information textarea {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    margin: 10px 0px -15px 0px;
+}
+.build .casing .information i {
+    margin: 17px 0px 0px 0px;
+    font-size: 21px
+
+}
+.build .casing .information textarea:focus:not([readonly]) {
+    color: white !important;
+    border-bottom: 1px solid #ffffff;
+    -webkit-box-shadow: 0 1px 0 0 #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+.build .casing .picture {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    margin: 20px 20px auto 20px;
+}
+.build .casing .picture i {
+    font-size: 38px;
+    margin: 18px 15px;
+    text-align: center;
+}
+.build .casing .picture img {
+    max-width: 80px;
+    max-height: 80px;
+}
+.build .casing .information .dropdown {
+    float: right;
+    height: 0px;
+    margin: -35px 0px 0px 0px;
+}
+.parts {
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+}
+.build .controls {
+    height: 30px;
+    margin: 0px 20px;
+}
+.build .buttons {
+    margin: 0px 10px 30px 10px;
+    text-align: center;
+}
+.build .buttons button {
+    max-width: 150px;
+    width: 100%;
+}
+.build .buttons button.save {
+    background-color: #5cb85c !important;
+}
+.build .buttons button.save:hover {
+    background-color: #449d44 !important;
+}
+.build .buttons button.remove {
+    background-color: #d9534f !important;
+}
+.build .buttons button.remove:hover {
+    background-color: #c9302c !important;
+}
+.build .buttons button:first-child {
+    margin: 0px 20px 0px 0px;
+}
+.build .controls .right,
+.build .controls .left {
+    cursor: pointer;
+}
+.build_box {
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    height: calc(100vh - 70px);
+    z-index: 3;
+}
+.build_box .add_container {
+    width: 100%;
+    max-width: 700px;
+    background-color: #222222;
+    margin: 30px auto 0px auto;
+    padding: 40px;
+    -moz-box-shadow: 0 0 10px #ccc;
+-webkit-box-shadow: 0 0 10px #ccc;
+box-shadow: 0 0 10px #ccc;
+}
+.build_box .add_container a {
+    width: 100%;
+}
+.build_box .add_container h2 {
+    font-size: 36px;
+    margin: 0px 0px 40px 0px;
+}
+.build_box .add_container .close {
+    cursor: pointer;
+    font-size: 22px;
+    margin: -20px -15px 0px 0px;
+    float: right;
+}
+.Dropdown-root {
+    padding: 0px;
+    width: 50px;
+}
+.Dropdown-root .Dropdown-menu {
+    padding: 0px 0px;
+    width: 50px;
+    background-color: #ffffff;
+    color: #222222;
+}
+.Dropdown-root .Dropdown-menu .Dropdown-option:hover {
+    background-color: grey;
+}
+.Dropdown-root .Dropdown-placeholder i,
+.Dropdown-root .Dropdown-menu i {
+ margin: 0px !important;
+ font-size: 15px !important;
+}
+.trans_200
+{
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}

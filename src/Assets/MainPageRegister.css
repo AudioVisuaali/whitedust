@@ -1,0 +1,55 @@
+
+.register {
+    width: 100%;
+    max-width: 500px;
+    margin: 0px auto 0px auto;
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+}
+.input-field {
+    padding-bottom: 20px;
+}
+.register a:first-child {
+    margin-right: 20px;
+}
+
+.register a {
+    width: 100%;
+}
+.register .additional_links p {
+    padding: 0px;
+    margin: 0px;
+}
+.register .additional_links a {
+    color: #1a69a4;
+}
+.register .additional_links {
+    margin: 15px 0px 0px 0px;
+}
+.register a img {
+    max-width: 50px;
+    padding: 2px 0px 0px 0px;
+}
+
+.input-field input[type=text] , .materialize-textarea:focus:not([readonly])  {
+color: #1a69a4 !important;
+}
+input[type=text].valid:not(.browser-default), input[type=text].valid:not(.browser-default):focus {
+    color: #1a69a4 !important;
+}
+label {
+    color: #ffffff !important;
+}
+.input-field input[type=text],
+.input-field input[type=password],
+.input-field input[type=email] {
+    color: #ffffff !important;
+}
+
+.input-field input[type=text]:focus,
+.input-field input[type=password]:focus,
+.input-field input[type=email]:focus {
+    color: #ffffff;
+border-bottom: 1px solid #1a69a4 !important;
+box-shadow: 0 1px 0 0 #1a69a4 !important;
+}

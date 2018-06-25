@@ -1,0 +1,31 @@
+.no_builds {
+    margin: 80px 0px 0px 0px;
+    text-align: center
+}
+.loading {
+    width: 150px;
+    margin: 100px auto 0px auto;
+}
+.loading img {
+    max-width: 150px;
+}
+.builds {
+    width: 100%;
+    max-width: 800px;
+    padding: 0px 20px 20px 20px;
+    margin: 0px auto 0px auto;
+}
+.builds h5 {
+    text-align: center;
+    cursor: pointer;
+    margin: 15px 0px;
+}
+.builds .controls .right {
+    float: right;
+}
+.builds .controls .left {
+    float: left;
+}
+.builds .controls {
+    margin: 0px 20px;
+}

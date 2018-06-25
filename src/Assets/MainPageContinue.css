@@ -1,0 +1,24 @@
+.welcome-back .buttons a:first-child {
+    margin-right: 20px;
+}
+.welcome-back .buttons a {
+    min-width: 150px;
+}
+.welcome-back .buttons {
+    text-align: center;
+}
+.welcome-back .info {
+    margin: 50px auto 0px auto;
+    max-width: 600px;
+    text-align: center
+}
+.welcome-back p {
+    text-align: center;
+}
+.welcome-back {
+    padding: 0px 0px 30px 0px;
+}
+.welcome-back strong {
+    font-weight: 700;
+    font-size: 22px;
+}

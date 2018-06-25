@@ -1,0 +1,37 @@
+.updates {
+    max-width: 800px;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+.updates h4 {
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+.updates .button {
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+.updates .update h4 {
+    text-align: left;
+}
+.updates .update .content {
+    margin: 0px 0px 40px 20px;
+}
+.updates .update p {
+    margin: 10px 0px 5px 0px;
+}
+.updates .update p i {
+    width: 14px;
+    font-size: 14px;
+    margin: 0px 3px 0px -20px;
+}
+.updates .update p i.fa-plus {
+    color: #5cb85c;
+}
+.updates .update p i.fa-minus {
+    color: #d9534f;
+}
+.updates .update span {
+    font-size: 10px;
+}

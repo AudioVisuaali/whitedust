@@ -1,0 +1,10 @@
+.interested .information {
+    color: #222222;
+    padding: 140px 0px;
+    text-align: center;
+}
+.interested .information a {
+    margin: 0px 0px 20px 0px;
+    max-width: 150px;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+.welcomeBox {
+    background-color: #282828;
+    padding: 0px 0px 50px 0px;
+}
+.welcomeBox .buttons a:first-child {
+    margin-right: 20px;
+}
+.welcomeBox .buttons a {
+    min-width: 150px;
+}
+.welcomeBox .buttons {
+    text-align: center;
+}
+.welcomeBox .info {
+    margin: 50px auto 0px auto;
+    max-width: 600px;
+    text-align: center
+}
+.welcomeBox .info h5 {
+    margin-bottom: 40px;
+}
