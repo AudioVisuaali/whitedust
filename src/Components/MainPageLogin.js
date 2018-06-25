@@ -66,7 +66,7 @@ class MainPageLogin extends Component {
                 <div className="additional_links">
                     <p>Revive your account <Link to="/forgot">here!</Link></p>
                     
-                    <p>Don't have an account yet? <Link to="/register">Register!</Link></p>
+                    <p>Don&#39;t have an account yet? <Link to="/register">Register!</Link></p>
                 </div>
             </ReactCSSTransitionGroup>
         )
