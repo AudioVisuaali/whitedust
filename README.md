@@ -3,5 +3,5 @@ Whitedust is an platform to share PC-builds quick and easily with the priority o
 
 # Current build
 
-* [DEMO](https://whitedust.audiovisuaali.net/inspect/example) - Current production DEMO build
+* [LIVE](https://whitedust.audiovisuaali.net/inspect/example)
 
