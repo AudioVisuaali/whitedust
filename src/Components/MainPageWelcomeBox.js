@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import "../Assets/WelcomeBox.css";
 
-export default class WelcomeBox extends Component { 
-    render() {
-        return (
+const WelcomeBox = () => {
+    return (
             <div className="welcomeBox">
                 <div className="buttons">
                     <Link to="/login" className="waves-effect waves-light btn-large light-blue darken-1">
@@ -32,5 +31,6 @@ export default class WelcomeBox extends Component {
                 </div>
             </div>
         );
-    }
 }
+export default WelcomeBox;
+
